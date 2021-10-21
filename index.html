@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="img">
+    
+<img src="images/wecode1.jpeg" id="img">
+
+
+<script>
+ 
+let myImage = document.querySelector('img');
+
+myImage.onclick = function() {
+    let mySrc = myImage.getAttribute('src');
+    if(mySrc === 'images/wecode1.jpeg') {
+      myImage.setAttribute('src','images/whoCode (2).jpeg');
+    } else {
+      myImage.setAttribute('src','images/wecode1.jpeg');
+    }
+}
+
+</script>
+<script src="main.js"></script>
+</body>
+</html>

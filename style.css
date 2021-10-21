@@ -1,0 +1,14 @@
+img{
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   text-align: center;
+   width: 30%;
+}
+
+
+img {
+  display: inline-block;
+  float: none;
+  padding: 10px;
+}
